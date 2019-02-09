@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="bootstrap.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<style>
+
+body {
+
+	width: 100%;
+	height: 100%;
+}
+#header{
+	text-align: center;
+	background-color: black;
+	color: white;
+	border-top: 0;
+}
+.container{
+	border: 1px solid black;
+	background-color: black;
+	
+}
+.wrapper {
+	width: 100%;
+	height: 1150px;
+	background-color: #263238;
+	padding-bottom: 35px;
+	color: white;
+}
+.nav{
+	background-color: grey;
+	color: white; 
+}
+	#box{
+		width: 530px;
+		height: 250px; 
+		border: 1px solid black;
+		margin: 10px;
+		padding: 10px;
+		background-color: black;
+		float: left;
+	}
+	.title {
+		
+		color: white;
+		text-align: center;
+	}
+
+
+
+
+
+    
+
+.movie-image{
+	float: left;
+}
+.movie-deatils {
+   float: right;
+margin-left: 10px;
+   border: 5px;
+    }
+footer{
+	text-align: center;
+	background-color: black;
+	color: white;
+	border-top: 0;
+}
+
+
+
+</style>
+<link rel="stylesheet" href="bootstrap.css">
+<script type="text/javascript"  src="cr5.json"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+<div class="container" > 
+	<div id="header">
+   	 
+<h1>Movie Factory
+	 </h1>
+	</div>
+	<div class="wrapper center-block">
+	<ul class="nav nav-tabs" role="tablist">
+    <li class="active"><a href="#">Home</a></li>
+       <li><a href="#">Movies</a></li>
+     <li><a href="#">Playlists</a></li>
+    <li><a href="#">About</a></li>  </ul>
+   
+
+	
+
+<h1 class="title">MOVIES </h1>
+
+	<div class="movie-info">
+<div class="row center-block">
+
+<div class="col-lg-6 col-xs-12" id="box">
+	<div class="movie-image"> 
+<img src="img/star.jpg" width="170" height="200">
+</div>
+<div class="details">
+<h3>A Star Is Born</h3>
+
+<p>director: Bradley Cooper<br>
+	main_actors: Andrew Dice Clay, Anthony Ramos, Bradley Cooper,<br> Dave Chappelle, Lady Gaga</p> 
+</div>
+<button id="btn" class="like"> Button  </button>
+
+</div>
+<div class="col-lg-6 col-xs-12" id="box"> 
+	<div class="movie-image">
+	<img src="img/hall.jpg" width="170" height="200">
+	</div>
+	<div class="details">
+		<span>
+<h3>Halloween</h3>
+
+<p>director: David Gordon Green<br>
+	main_actors: Jamie Lee Curtis, Judy Greer, Andi Matichak</p> </span>
+	
+	<button id="btn" class="like"> Button 2 </button>
+</div>
+ 
+
+</div>
+</div>
+</div>
+
+<div class="movie-info">
+<div class="row center-block">
+	
+<div class="col-lg-6 col-xs-12" id="box">
+<div class="movie-image"> 
+	<img src="img/first.jpg" width="170" height="200">
+	</div>
+	<div class="details">
+
+<h3>First Man</h3>
+
+<p>director: Damien Chazelle<br>
+	main_actors: Ryan Gosling, Claire Foy, Jason Clarke</p>
+	<button id="btn" class="like"> Button 3 </button> </div>
+</div>
+
+<div class="col-lg-6 col-xs-12" id="box"> 
+	<div class="movie-image">
+	<img src="img/bad.png" width="170" height="200" >
+	</div>
+<div class="details">
+<h3>Bad Times at the El Royale</h3>
+
+<p>director: Drew Goddard<br>
+	main_actors: Jeff Bridges, Cynthia Erivo, Dakota Johnson, Jon Hamm, Cailee Spaeny</p> 
+	<button id="btn" class="like"> Button 4 </button>
+</div>
+
+
+</div>
+
+</div>
+</div>
+
+<div class="movie-info">
+<div class="row center-block">
+
+<div class="col-lg-6 col-xs-12" id="box">
+	<div class="movie-image">
+	<img src="img/mand.jpg" width="170" height="200">
+	</div>
+	<div class="details">
+<h3>Mandy</h3>
+
+<p>director: Panos Cosmatos<br>
+	main_actors: Nicolas Cage, Andrea Riseborough, Linus Roache</p> 
+	<button id="btn" class="like"> Button 5 </button>
+</div>
+</div>
+<div class="col-lg-6 col-xs-12" id="box">
+	<div class="movie-image">
+	<img src="img/crazy.jpg" width="170" height="200">
+	</div>
+	<div class="details">
+<h3>Crazy Rich Asians</h3>
+
+<p>director: Jon M. Chu<br>
+	main_actors: Constance Wu, Henry Golding, Michelle Yeoh</p> 
+	<span id="like" onclick={buttonClick()}>0</span> 
+	<button id="btn" class="like"> Button 6 </button>
+</div>
+ 
+
+
+ </div>
+</div>
+
+</div>
+</div>
+<footer>
+	<h1>Movie Factory
+	 </h1>
+ </footer>
+
+</div>
+
+
+ <script src="cr.js"></script>
+
+
+
+</body>
+</html>

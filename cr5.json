@@ -1,0 +1,50 @@
+var movi =[{
+	"mname":"A Star Is Born",
+	"typ":"Drama",
+	"language":"English",
+	"director":"Bradley Cooper",
+	"main_actors":"Andrew Dice Clay, Anthony Ramos, Bradley Cooper, Dave Chappelle, Lady Gaga",
+	"running_time":"2:16"
+	
+},{
+	"mname":"Halloween",
+	"typ":"Horror",
+	"language":"English",
+	"director":"David Gordon Green",
+	"main_actors":"Jamie Lee Curtis, Judy Greer, Andi Matichak",
+	"running_time":"1:40",
+	"image":"img/hall.jpg",
+},{
+	"mname":"First Man",
+	"typ":"Drama, History",
+	"language":"English",
+	"director":"Damien Chazelle",
+	"main_actors":"Ryan Gosling, Claire Foy, Jason Clarke",
+	"running_time":"2:18",
+	"image":"img/first.jpg",
+},{
+	"mname":"Bad Times at the El Royale",
+	"typ":"Thriller,Suspense",
+	"language":"English",
+	"director":"Drew Goddard",
+	"main_actors":"Jeff Bridges, Cynthia Erivo, Dakota Johnson, Jon Hamm, Cailee Spaeny",
+	"running_time":"2:22",
+	"image":"img/bad.jpg",
+},{
+	"mname":"Mandy",
+	"typ":"Horror",
+	"language":"German",
+	"director":"Panos Cosmatos",
+	"main_actors":" Nicolas Cage, Andrea Riseborough, Linus Roache",
+	"running_time":"2:02",
+	"image":"img/mand.jpg",
+},{
+	"mname":"Crazy Rich Asians",
+	"typ":"Comedy",
+	"language":"English",
+	"director":"Jon M. Chu",
+	"main_actors":"Constance Wu, Henry Golding, Michelle Yeoh",
+	"running_time":"2:01",
+	"image":"img/crazy.jpg",
+
+}];
