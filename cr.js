@@ -1,13 +1,7 @@
 
-document.getElementById('btn').addEventListener('click', function(){
-  var i = document.getElementById("like").innerHTML;
-  i++;
-    document.getElementById("like").innerHTML = i;
-})
-
-document.getElementById('btn2').addEventListener('click', function(){
-  var i = document.getElementById("like").innerHTML;
- i++
-
-    document.getElementById("like").innerHTML = i;
-})
+var i=
+$(document).ready(function(){
+			function myfunctionadd(id){
+				like.push($("#myinput").val());
+				addListeners();
+			}
