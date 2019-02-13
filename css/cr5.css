@@ -1,0 +1,122 @@
+body {
+
+	width: 100%;
+	height: 100%;
+}
+#header{
+	text-align: center;
+	background-color: black;
+	color: white;
+	border-top: 0;
+}
+.container{
+	width: 100%;
+	border: 1px solid black;
+	background-color: black;
+	
+}
+.heading{
+	display: flex;
+	padding: 50px 20px 10px 10px;
+}
+.wrapper {
+	width: 1000px;
+	height: 1400px;
+	background-color: #263238;
+	padding-bottom: 35px;
+	margin-left: 40px;
+    margin-right: 10px;
+	color: white;
+}
+.nav{
+	background-color: grey;
+	color: white; 
+}
+	
+	.title {
+		
+		color: white;
+		text-align: center;
+	}
+#movies{
+	width: 100%;
+	height: 1200px;
+	margin-left: 60px;
+	border-left: 20px;
+}
+
+.row {
+       width: 100%;
+	   height: 1100px; 
+    
+
+}
+
+
+
+
+.col-lg-5 {
+
+	    width: 500px;
+		height: 300px; 
+		border: 1px solid black;
+		margin: 10px;
+		padding: 10px;
+		background-color: black;
+		
+		text-align: right;
+
+}
+
+.media-body{
+	float: right;
+}
+
+.image{
+	width: 170px;
+	height: 250px;
+	margin: 20px;
+	box-shadow: 2px,2px,2px,2px,orange;
+    border: 10px;
+	float: left;
+
+  
+}
+.image  img{
+	width: 100%;
+
+
+
+	 
+}
+.media-right{
+     margin-right: 10px;
+
+	border-right: 20px;
+	padding: 20px;
+
+}
+.quantity{
+	
+	margin-top: 0;
+
+}
+.quantity p{
+	float: left;
+
+
+}
+.like-btn{
+	margin-left: 0;
+
+}
+   
+
+footer{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	border-top: 0;
+}

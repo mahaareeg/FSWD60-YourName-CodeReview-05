@@ -3,8 +3,9 @@ var movi =[{
 	"typ":"Drama",
 	"language":"English",
 	"director":"Bradley Cooper",
-	"main_actors":"Andrew Dice Clay, Anthony Ramos, Bradley Cooper, Dave Chappelle, Lady Gaga",
-	"running_time":"2:16"
+	"main_actors":" Bradley Cooper, Dave Chappelle, Lady Gaga",
+	"running_time":"2:16",
+	"image":"img/star.jpg"
 	
 },{
 	"mname":"Halloween",
@@ -27,7 +28,7 @@ var movi =[{
 	"typ":"Thriller,Suspense",
 	"language":"English",
 	"director":"Drew Goddard",
-	"main_actors":"Jeff Bridges, Cynthia Erivo, Dakota Johnson, Jon Hamm, Cailee Spaeny",
+	"main_actors":"Jeff Bridges, Cynthia Erivo, Dakota Johnson",
 	"running_time":"2:22",
 	"image":"img/bad.jpg",
 },{
