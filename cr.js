@@ -23,6 +23,7 @@ $(document).ready(function(){
 				<p>${movi[i].director}</p>
 				<p>${movi[i].main_actors}</p>
 				<p>${movi[i].typ}</p>
+				<p>${movi[i].language}</p>
 				
                			
 			
